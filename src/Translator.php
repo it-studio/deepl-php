@@ -557,14 +557,14 @@ class Translator
             foreach ($texts as $text) {
                 if (!is_string($text) || strlen($text) === 0) {
                     throw new DeepLException(
-                        'texts parameter must be a non-empty string or array of non-empty strings',
+                        'texts parameter must be a non-empty string or array of non-empty strings'
                     );
                 }
             }
         } else {
             if (!is_string($texts) || strlen($texts) === 0) {
                 throw new DeepLException(
-                    'texts parameter must be a non-empty string or array of non-empty strings',
+                    'texts parameter must be a non-empty string or array of non-empty strings'
                 );
             }
         }
